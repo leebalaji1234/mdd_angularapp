@@ -1,0 +1,21 @@
+[05-05-2016 08:08:27 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[1663.96] pay_id[41] url[https://www.instamojo.com/@e3006866/1c2deb2c7d65417c9fbcc1e263e2d6ef]
+[05-05-2016 09:36:22 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[2396.1] pay_id[48] url[https://www.instamojo.com/@e3006866/928d2ab7a6f04f81b1ec7ca4e76f48e1]
+[06-05-2016 04:19:22 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[92773.49] pay_id[49] url[https://www.instamojo.com/@e3006866/96150dd6abe6496aab9c059baf205692]
+[21-05-2016 06:17:04 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[2427.3] pay_id[57] url[https://www.instamojo.com/@e3006866/83077229976447989bfaa7e199fa500b]
+[27-05-2016 06:55:22 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[36474] pay_id[59] url[https://www.instamojo.com/@e3006866/61d3a9b341ee4743903a4443cc3e32dc]
+[19-06-2016 05:06:06 pm]INFO : PAYMENT MODULE : Payment Details Received : amount[2615.83] pay_id[67] url[https://www.instamojo.com/@e3006866/4ef39527da014f658ea74a14250fcfb1]
+[06-08-2016 07:54:35 am]ERROR : RETURN PAY ::  missing payment_id : GET[Array
+(
+)
+] POST[Array
+(
+)
+]
+[06-08-2016 07:55:38 am]ERROR : RETURN PAY ::  missing payment_id : GET[Array
+(
+    [payment_request_id] => 127
+)
+] POST[Array
+(
+)
+]

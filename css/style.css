@@ -1,0 +1,463 @@
+/*.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../img/top.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}*/
+
+
+.cd-top {
+    background: rgba(0, 0, 0, 0) url("../img/top.png") no-repeat scroll center 20%;
+    bottom: 47px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 60px;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 2px;
+    text-indent: 100%;
+    transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 64px;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: 2.5;
+}
+.no-touch .cd-top:hover {
+ 
+  opacity: 1;
+}
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top: 0px !important
+}
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top:0px !important;
+	 height: 1194px !important;
+	
+}
+.ac1 {
+    margin-top: 70px;
+}
+.well .error {
+    left: 33%;
+  
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 38%;
+    z-index: 2147483647;
+}
+.section-info {
+    background-color: #337cbb  !important;
+    color: #ffffff;
+   
+    z-index: 222;
+}
+/*.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 55px;
+    z-index: 99999999;
+}*/
+.section-info {
+    background-color: #337cbb !important;
+    color: #ffffff;
+    margin-top: 55px;
+    z-index: 99999999;
+}
+.well form {
+    margin-top: 143px !important;
+	
+}
+#grid {
+    height: auto !important;
+    width: 99% !important;
+}
+
+.panel.panel-primary.a1 {
+    min-height: 945px !important;
+}
+.g1{
+	
+	min-height: 945px !important;
+}
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+  .col-md-10.well {
+    margin-top: 0px !important;
+	 height: 1242px !important;
+}
+.ac1 {
+    margin-top: 106px;
+}
+.well .error {
+    left: 15%;
+    margin-top: 96px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 72%;
+    z-index: 2147483647;
+}
+.well form {
+    margin-top: 145px !important;
+}
+
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 98px !important;
+    z-index: 222;
+}
+}
+
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top:0px !important;
+}
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+   
+    z-index: 222;
+}
+.well form {
+    margin-top: 180px !important;
+}
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 103px;
+    z-index: 222;
+}
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top: 0px !important
+}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top:0px !important;
+	 height: 1270px !important;
+}
+
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 104px;
+    z-index: 222;
+}
+
+.well form {
+    margin-top: 200px !important;
+}
+#grid {
+    height: auto !important;
+    width: 98.6% !important;
+}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top:0px !important
+}
+.panel.panel-primary.a1 {
+   min-height: 1000px !important;
+}
+.g1
+{
+    height: 1000px !important;
+}
+.col-md-1 {
+    width: 9.333333%;
+}
+.well form {
+    margin-top: 85px !important
+}
+#grid > div {
+    position: sticky !important;
+    /*width:89% !important*/
+}
+
+
+.col-md-6.text-left {
+    margin-right: -37px;
+	color: #ffeb3b !important;
+}
+#canvas {
+   /* min-height: 1014px !important;*/
+    
+}
+.well .error {
+    left: 33%;
+    margin-top: 47px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 38%;
+    z-index: 2147483647;
+}
+
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top: 0px !important
+}
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top: 0px !important
+}
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+ .col-md-10.well {
+    margin-top: 0px !important
+}
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+.col-md-10.well {
+    margin-top: 0px !important;
+	 height: 1243px !important;
+}
+.col-md-2.f1 {
+    margin-top: 117px !important;
+}
+.ac1 {
+    margin-top: 114px;
+}
+.well .error {
+    left: 21%;
+    margin-top: 94px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 62%;
+    z-index: 2147483647;
+}
+
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 98px !important;
+    z-index: 222;
+}
+.well form {
+    margin-top: 152px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+   height: 130px;
+    width: 68px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) , screen and (max-height: 480px) {
+
+ .col-md-10.well {
+    margin-top: -238px !important
+}
+.well form {
+    margin-top: 203px !important;
+}
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 98px !important;
+    z-index: 222;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+ .col-md-10.well {
+    margin-top: -232px !important;
+}
+
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 98px !important;
+    z-index: 222;
+}
+
+}
+
+
+@media only screen and (max-width: 728px) {
+
+.text-info {
+    color: #5bc0de;
+    margin-top: 207px !important;
+}
+
+ .col-md-10.well {
+    margin-top: -155px !important;
+}
+
+.section-info {
+    background-color: #5bc0de !important;
+    color: #ffffff;
+    margin-top: 55px !important;
+    z-index: 222;
+}
+
+}
+
+
+@media only screen and (max-width: 1024px){
+	
+
+	
+}
+
+@media only screen and (min-width: 360px) {
+
+#topbar {
+    margin-top:8% !important;
+  }
+  
+  
+}
+@media only screen and (min-width: 768px) {
+
+#topbar {
+    margin-top:13% !important;
+  }
+   .col-md-10.well {
+    margin-top: -54px !important;
+}
+}
+@media only screen and (min-width: 780px) {
+  #topbar {
+    margin-top:3% !important;	
+  }
+}*/
+
+.hastheme{
+  color:black !important;
+}
